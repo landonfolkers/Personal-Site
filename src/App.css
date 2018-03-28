@@ -1,0 +1,81 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+#name {
+  font-family: 'Bungee Hairline', cursive;
+  text-align: center;
+}
+
+#choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 20px;
+ 
+}
+
+#choices li {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  list-style: none;
+}
+
+#choices a {
+  text-decoration: none;
+  color: black;
+}
+
+#choices h1 {
+  display: flex;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 50px;
+}
+
+#name {
+  font-family: 'Bungee Hairline', cursive;
+  color: black;
+  margin-top: -50px;
+}
+main {
+  background-image: url('/pictures/logo.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+#button {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  padding-top: 12px;
+  font-family: 'Bungee Hairline', cursive; 
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  position: absolute;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+social {
+  text-decoration: none;
+} 
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
