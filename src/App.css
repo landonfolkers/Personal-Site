@@ -51,12 +51,13 @@ main {
   height: 80vh;
 }
 
-#button {
-  text-align: center;
-  font-size: 40px;
-  color: black;
-  padding-top: 12px;
-  font-family: 'Bungee Hairline', cursive; 
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.info h2 {
+  text-align: left;
+  margin-left: 60px;
 }
 
 footer {

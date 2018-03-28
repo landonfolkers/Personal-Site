@@ -1,25 +1,29 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
-export default function Header() {
-    return <header>
-        <section id='menu'>
-            <ul id='choices'>
-                <li>
-                    <a href="About">About</a>
-                </li>
-                <li>
-                    <a href="Skills">Skills</a>
-                </li>
-                <li>
-                    <h1>Landon Folkers</h1>
-                </li>
-                <li>
-                    <a href="Projects">Projects</a>
-                </li>
-                <li>
-                    <a href='Contact'>Contact</a>
-                </li>
-            </ul>
-        </section>
-    </header>
+class Header extends Component {
+    render() {
+        return <header>
+            <section id='menu'>
+                <ul id='choices'>
+                    <li>
+                        <Link to="About">About</Link>
+                    </li>
+                    <li>
+                        <Link to="Skills">Skills</Link>
+                    </li>
+                    <li>
+                        <h1>Landon Folkers</h1>
+                    </li>
+                    <li>
+                        <Link to="Projects">Projects</Link>
+                    </li>
+                    <li>
+                        <Link to="Contact">Contact</Link>
+                    </li>
+                </ul>
+            </section>
+        </header>
+    }
 }
+export default Header
