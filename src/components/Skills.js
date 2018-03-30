@@ -12,6 +12,7 @@ class Skills extends Component {
                         <li>Graduate of Galvanize Inc. Web Development Immersive Full-Stack program. Mastered the concepts and techniques of full-stack app development.</li>
                         <li>Created 15+ programs and applications using HTML5, CSS, and JavaScript.</li>
                         <li>Experience with creating, testing, and deploying React applications.</li>
+                        <li>Knowledge and experience with C#, .NET, and .NET Core</li>
                         <li>Proficient in writing Cypress tests for front-end and full-stack applications.</li>
                         <li>Knowledge of Node.js and Express for creating light servers and RESTful APIs.</li>
                         <li>Experience using Knex, PostgreSQL, and SQL to create databases for applications.</li>

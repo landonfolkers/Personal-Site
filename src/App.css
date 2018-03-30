@@ -100,6 +100,21 @@ main {
   color: rgb(255, 255, 255);
 }
 
+#about {
+  display: flex;
+}
+
+#aboutimg {
+  display: flex;
+  padding: 5px;
+}
+
+#aboutimg img {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
