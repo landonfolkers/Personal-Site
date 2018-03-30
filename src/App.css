@@ -16,17 +16,23 @@ header {
   justify-content: space-around;
   align-content: center;
   padding-top: 20px;
- 
 }
 
 #choices li {
   font-family: 'Montserrat Subrayada', sans-serif;
   list-style: none;
+  font-size: 25px;
 }
 
 #choices a {
   text-decoration: none;
   color: black;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+#choices a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
 }
 
 #choices h1 {
@@ -48,26 +54,60 @@ main {
   background-size: 90vh;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 85vh;
+  padding-bottom: 30px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
+  margin-left: 40px;
+  margin-top: 0px;
+  background-color: white;
 }
 .info h2 {
   text-align: left;
-  margin-left: 60px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  margin-top: -30px;
+  font-family: 'Slabo 13px', serif;
+}
+
+#content h3 {
+  font-size: 22px;
+}
+
+#content p {
+ font-size: 15px;
+}
+
+#content a {
+  text-decoration: none;
+  color: rgb(66, 66, 233);
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  padding-right: 10px;
+}
+#content a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
 }
 
 footer {
   display: flex;
   justify-content: space-between;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 5px;
-  position: absolute;
+  padding-left: 5px; 
   font-family: 'Montserrat Subrayada', sans-serif;
 }
 
